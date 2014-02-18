@@ -21,6 +21,7 @@
 		980DEF5B18B370210056C563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980DEF3D18B370210056C563 /* UIKit.framework */; };
 		980DEF6318B370210056C563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 980DEF6118B370210056C563 /* InfoPlist.strings */; };
 		980DEF6518B370210056C563 /* PhotoSharingSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 980DEF6418B370210056C563 /* PhotoSharingSampleTests.m */; };
+		980DEF6F18B37A5A0056C563 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980DEF6E18B37A5A0056C563 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		980DEF6018B370210056C563 /* PhotoSharingSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoSharingSampleTests-Info.plist"; sourceTree = "<group>"; };
 		980DEF6218B370210056C563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		980DEF6418B370210056C563 /* PhotoSharingSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSharingSampleTests.m; sourceTree = "<group>"; };
+		980DEF6E18B37A5A0056C563 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				980DEF3C18B370210056C563 /* CoreGraphics.framework in Frameworks */,
+				980DEF6F18B37A5A0056C563 /* FacebookSDK.framework in Frameworks */,
 				980DEF3E18B370210056C563 /* UIKit.framework in Frameworks */,
 				980DEF3A18B370210056C563 /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +104,7 @@
 		980DEF3818B370210056C563 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				980DEF6E18B37A5A0056C563 /* FacebookSDK.framework */,
 				980DEF3918B370210056C563 /* Foundation.framework */,
 				980DEF3B18B370210056C563 /* CoreGraphics.framework */,
 				980DEF3D18B370210056C563 /* UIKit.framework */,
@@ -378,6 +382,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/svk/Desktop/Workspace/PhotoSharingSample,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoSharingSample/PhotoSharingSample-Prefix.pch";
 				INFOPLIST_FILE = "PhotoSharingSample/PhotoSharingSample-Info.plist";
@@ -391,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/svk/Desktop/Workspace/PhotoSharingSample,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoSharingSample/PhotoSharingSample-Prefix.pch";
 				INFOPLIST_FILE = "PhotoSharingSample/PhotoSharingSample-Info.plist";
